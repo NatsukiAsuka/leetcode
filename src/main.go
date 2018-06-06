@@ -1,10 +1,10 @@
 package main
 
-import (
-	"fmt"
-	"leetcode/src/solutions"
-)
+import "leetcode/src/solutions"
 
 func main() {
-	fmt.Println(solutions.TwoSum([]int{2, 3, 5, 7, 11, 13}, 12))
+	println(solutions.LengthOfLongestSubstring("abcabcaaa"))
+	println(solutions.LengthOfLongestSubstring("akka"))
+	println(solutions.LengthOfLongestSubstring("aaaaaa"))
+	println(solutions.LengthOfLongestSubstring("pwwkew"))
 }
