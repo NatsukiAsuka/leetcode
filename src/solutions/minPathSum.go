@@ -2,7 +2,7 @@ package solutions
 
 import "math"
 
-func minPathSum(grid [][]int) int {
+func MinPathSum(grid [][]int) int {
 	for i := 1; i < len(grid); i++ {
 		grid[i][0] += grid[i-1][0]
 	}
