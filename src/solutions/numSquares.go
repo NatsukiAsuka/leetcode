@@ -4,7 +4,7 @@ import (
 	"math"
 )
 
-func numSquares(n int) int {
+func NumSquares(n int) int {
 	var arr []int
 	for i := 1; i*i <= n; i++ {
 		arr = append(arr, i*i)
