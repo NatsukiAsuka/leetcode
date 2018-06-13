@@ -1,6 +1,4 @@
-package solutions
-
-func InvertTree(root *TreeNode) *TreeNode {
+func invertTree(root *TreeNode) *TreeNode {
 	if root == nil {
 		return nil
 	}

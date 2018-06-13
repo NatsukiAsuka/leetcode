@@ -1,8 +1,4 @@
-package solutions
-
-import "math"
-
-func Reverse(x int) int {
+func reverse(x int) int {
 	ans := 0
 	n := 0
 	for x != 0 {

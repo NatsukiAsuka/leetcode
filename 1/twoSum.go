@@ -1,6 +1,4 @@
-package solutions
-
-func TwoSum(nums []int, target int) []int {
+func twoSum(nums []int, target int) []int {
 	m := make(map[int]int)
 	for k, v := range nums {
 		if _, ok := m[target-v]; ok {

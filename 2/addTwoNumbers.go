@@ -1,6 +1,4 @@
-package solutions
-
-func AddTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
+func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 	if l1 == nil || l2 == nil {
 		return nil
 	}

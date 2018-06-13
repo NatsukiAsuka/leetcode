@@ -1,6 +1,4 @@
-package solutions
-
-func SingleNumber(nums []int) int {
+func singleNumber(nums []int) int {
 	result := 0
 	for _, v := range nums {
 		result ^= v

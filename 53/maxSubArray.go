@@ -1,8 +1,4 @@
-package solutions
-
-import "math"
-
-func MaxSubArray(nums []int) int {
+func maxSubArray(nums []int) int {
 	max := math.MinInt32
 	num := 0
 	for _, v := range nums {

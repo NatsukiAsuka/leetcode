@@ -1,8 +1,4 @@
-package solutions
-
-import "math"
-
-func MaxDepth(root *TreeNode) int {
+func maxDepth(root *TreeNode) int {
 	if root == nil {
 		return 0
 	}

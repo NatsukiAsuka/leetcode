@@ -1,10 +1,4 @@
-package solutions
-
-import (
-	"math"
-)
-
-func NumSquares(n int) int {
+func numSquares(n int) int {
 	var arr []int
 	for i := 1; i*i <= n; i++ {
 		arr = append(arr, i*i)

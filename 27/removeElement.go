@@ -1,6 +1,4 @@
-package solutions
-
-func RemoveElement(nums []int, val int) int {
+func removeElement(nums []int, val int) int {
 	ans := 0
 	for i := 0; i < len(nums); i++ {
 		if nums[i] == val {

@@ -1,8 +1,4 @@
-package solutions
-
-import "math"
-
-func MinPathSum(grid [][]int) int {
+func minPathSum(grid [][]int) int {
 	for i := 1; i < len(grid); i++ {
 		grid[i][0] += grid[i-1][0]
 	}

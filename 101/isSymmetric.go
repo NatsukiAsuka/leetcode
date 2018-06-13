@@ -1,6 +1,4 @@
-package solutions
-
-func IsSymmetric(root *TreeNode) bool {
+func isSymmetric(root *TreeNode) bool {
 	if root == nil {
 		return true
 	}

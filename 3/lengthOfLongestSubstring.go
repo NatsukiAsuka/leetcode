@@ -1,8 +1,4 @@
-package solutions
-
-import "math"
-
-func LengthOfLongestSubstring(s string) int {
+func lengthOfLongestSubstring(s string) int {
 	if len(s) == 0 {
 		return 0
 	}

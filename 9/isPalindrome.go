@@ -1,5 +1,3 @@
-package solutions
-
 func isPalindrome(x int) bool {
 	if x < 0 {
 		return false
